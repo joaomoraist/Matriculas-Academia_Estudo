@@ -2,7 +2,11 @@ package br.com.matriculas.demo.entity;
 
 import jakarta.persistence.*;
 import java.util.List;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "tb_aluno")
 public class Aluno {
