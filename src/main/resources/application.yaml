@@ -2,6 +2,8 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/gym_frequency
     username: postgres
+
+    #Coloque a senha do seu banco:
     password: 0710
 
   jpa:
